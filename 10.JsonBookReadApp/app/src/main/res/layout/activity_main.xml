@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+
+android:orientation="vertical"
+android:background="#757575"
+android:padding="16dp"
+android:weightSum="1"
+tools:context="com.example.faiz.bookread.MainActivity">
+
+    <ImageView
+        android:background="#ff14"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/bookImageCover"
+        android:src="@drawable/aaa"
+        />
+
+
+<EditText
+    android:background="#fff"
+    android:gravity="center"
+    android:id="@+id/search_edit_text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/bookImageCover"
+    android:hint="Enter book For Search"
+    android:paddingBottom="05sp"/>
+
+<Button
+    android:background="#ff14"
+    android:textStyle="bold"
+    android:textColor="#fff"
+    android:id="@+id/btn_search"
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/txt_response"
+    android:text="@string/btn_text" />
+
+
+<TextView
+    android:textColor="#fff"
+    android:background="#757575"
+    android:gravity="center"
+    android:id="@+id/txt_response"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/search_edit_text"
+    android:paddingBottom="8dp"
+    android:paddingTop="8dp"
+    android:text="@string/response_text"
+    android:textSize="16sp" />
+
+
+<ListView
+
+    android:id="@+id/books_list"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/btn_search">
+
+
+</ListView>
+
+</RelativeLayout>
+

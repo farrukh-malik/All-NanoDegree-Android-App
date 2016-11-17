@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.farrukhmalik.habittracking.UpdateHabit">
+    <EditText
+        android:gravity="center"
+        android:id="@+id/edit_id"
+        android:hint="Enter Your _ID"
+        android:textSize="26dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+
+        android:gravity="center"
+        android:id="@+id/edit_text_upd"
+        android:hint="Enter Your Habit"
+        android:textSize="26dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:paddingLeft="115sp"
+        android:paddingTop="15sp"
+        android:layout_marginBottom="25sp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:checked="false"
+            android:id="@+id/monu"
+            android:text="Monday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:checked="false"
+            android:id="@+id/tuesu"
+            android:text="Tuesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:checked="false"
+            android:id="@+id/wedu"
+            android:text="Wednesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:checked="false"
+            android:id="@+id/thuru"
+            android:text="Thursday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:checked="false"
+            android:id="@+id/friu"
+            android:text="Friday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:checked="false"
+            android:id="@+id/satu"
+            android:text="Saturday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:checked="false"
+            android:id="@+id/sunu"
+            android:text="Sunday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+    <Button
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:background="#ff14"
+        android:id="@+id/updt"
+        android:text="Update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

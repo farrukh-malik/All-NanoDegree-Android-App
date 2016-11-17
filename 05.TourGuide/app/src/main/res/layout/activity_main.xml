@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.developer.tourguide.MainActivity"
+    >
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="230dp"
+    android:id="@+id/main_image"
+    android:src="@drawable/mazar_quaid"
+    android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="#4FC3F7"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:text="Info about karachi will display there."/>
+
+    <!--<GridView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/list_item"-->
+        <!--android:numColumns="2"-->
+        <!--android:horizontalSpacing="1dp"-->
+        <!--android:verticalSpacing="1dp"-->
+        <!--android:background="#e5e5e5">-->
+    <!--</GridView>-->
+    <TextView
+        android:layout_height="50dp"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:background="#ff14"
+       android:layout_marginTop="2dp"
+        android:text="Historical Places"
+        android:textColor="#fff"
+
+        android:gravity="center"
+        android:fontFamily="cursive"
+
+        android:id="@+id/history"
+        />
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginTop="2dp"
+    android:text="See Points"
+        android:gravity="center"
+        android:textColor="#ff14"
+        android:textSize="30dp"
+        android:fontFamily="cursive"
+        android:background="#fff"
+        android:id="@+id/seepoints"
+    />
+    <TextView
+        android:layout_height="50dp"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:background="#ff14"
+       android:gravity="center"
+
+        android:layout_marginTop="2dp"
+        android:text="Famous Places"
+        android:textColor="#fff"
+
+        android:fontFamily="cursive"
+
+        android:id="@+id/famousplaces"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="2dp"
+        android:text="Beautiful Places"
+        android:textColor="#ff14"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:fontFamily="cursive"
+        android:background="#fff"
+        android:id="@+id/beauty"
+        />
+</LinearLayout>
+</ScrollView>

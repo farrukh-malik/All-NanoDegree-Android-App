@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF7DA">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Numbers"
+        android:textSize="16dp"
+        android:textAlignment="viewStart"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:background="@color/category_numbers"
+        android:id="@+id/numbers"
+        android:onClick="openNumbersList"
+        tools:ignore="UnusedAttribute" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:paddingLeft="10dp"
+        android:textAlignment="viewStart"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:text="Family Members"
+        android:id="@+id/family"
+        android:background="@color/category_family"
+        android:onClick="openFamilyList"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="Colors"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:paddingLeft="10dp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/colors"
+        android:textAlignment="viewStart"
+        android:background="@color/category_colors"
+        android:onClick="openColorList"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Phrases"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:textColor="#FFFFFF"
+        android:textAlignment="viewStart"
+        android:id="@+id/phrase"
+        android:background="@color/category_phrase"
+        android:onClick="openPhraseList"
+        tools:ignore="RtlCompat" />
+
+</LinearLayout>

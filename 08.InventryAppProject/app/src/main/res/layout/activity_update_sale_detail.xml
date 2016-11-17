@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.farrukhmalik.inventryappproject.UpdateSaleDetail">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Enter ID HERE"
+        android:id="@+id/pid"/>
+    <Button
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:background="#ff14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="ID"
+        android:id="@+id/btnid"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Enter Product Name"
+        android:id="@+id/nm"/>
+    <Button
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:background="#ff14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="ProductName"
+        android:id="@+id/btnname"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Enter Product Price"
+        android:id="@+id/pPrice"/>
+    <Button
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:background="#ff14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Price"
+        android:id="@+id/btnpr"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Enter Product Stock"
+        android:id="@+id/pStockUpdate"/>
+    <Button
+        android:textColor="#fff"
+        android:background="#ff14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stock"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:id="@+id/btnstk"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Enter Product Quantity"
+        android:id="@+id/edqnt"/>
+    <Button
+        android:textColor="#fff"
+        android:background="#ff14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quantity"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:id="@+id/btnq"/>
+
+
+
+</LinearLayout>
+</ScrollView>

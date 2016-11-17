@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.farrukhmalik.bussibescardapp.MainActivity">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:src="@drawable/malik"
+        android:layout_margin="10px"
+        android:padding="10px"
+        android:paddingTop="10px"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Business Mania"
+        android:textSize="40px"
+        android:textStyle="bold"
+        android:textColor="#FF1493"
+        android:layout_margin="20px"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  farrukhmalik46@gmail.com"
+        android:textColor="#0000FF"
+        android:textSize="20px"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   +923118118082"
+        android:textColor="#0000FF"
+        android:textSize="20px"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="    Address:"
+        android:layout_marginTop="20px"
+        android:textSize="30px"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="House# 1264 Street# 03 Sec 11 1/2 Shadman Town Karachi.........."
+        android:textSize="30px"
+        android:layout_marginTop="10px"
+        android:textAlignment="center"
+        />
+
+</LinearLayout>

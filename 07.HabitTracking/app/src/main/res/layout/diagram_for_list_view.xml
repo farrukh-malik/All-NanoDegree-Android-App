@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:id="@+id/txt"/>
+
+
+
+    <RadioGroup
+    android:gravity="center"
+        android:paddingTop="15sp"
+        android:layout_marginBottom="25sp"
+        android:orientation="horizontal"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:enabled="false"
+            android:checked="false"
+            android:id="@+id/m"
+            android:text="M"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:enabled="false"
+            android:checked="false"
+            android:id="@+id/t"
+            android:text="T"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:enabled="false"
+            android:checked="false"
+            android:id="@+id/w"
+            android:text="W"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:enabled="false"
+            android:checked="false"
+            android:id="@+id/th"
+            android:text="T"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:enabled="false"
+            android:checked="false"
+            android:id="@+id/fr"
+            android:text="F"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:enabled="false"
+            android:checked="false"
+            android:id="@+id/satd"
+            android:text="S"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:enabled="false"
+            android:checked="false"
+            android:id="@+id/sund"
+            android:text="S"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+</LinearLayout>
